@@ -1,12 +1,12 @@
-import NavBar from './components/navbar';
-import ItemListContainer from './components/itemListContainer';
+import NavBar from './components/NavBar';
+import ItemListContainer from './components/ItemListContainer';
 import './App.css'; // Opcional
 
 function App() {
   return (
     <div className="App">
       <NavBar />
-      <ItemListContainer greeting="¡Bienvenido a la tienda de R18!" />
+      <ItemListContainer greeting="¡Bienvenido a la tienda de camisetas de fútbol retro!" />
     </div>
   );
 }
