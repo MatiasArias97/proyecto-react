@@ -1,0 +1,43 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1rem;
+  }
+  
+  .navbar a:hover {
+    color: #4CAF50;
+  }
+  
+  /* Logo */
+  .navbar-logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Links */
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navbar-links li {
+    display: inline;
+  }
+  
+  /* Carrito */
+  .navbar-cart {
+    display: flex;
+    align-items: center;
+  }
+  
