@@ -1,6 +1,6 @@
 import React from 'react';
 import Item from './Item';
-import './ItemList.css';
+import './itemList.css';
 
 const ItemList = ({ products, onAddToCart }) => {
   return (
