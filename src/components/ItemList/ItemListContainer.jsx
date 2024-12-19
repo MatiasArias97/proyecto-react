@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import { useCart } from '../context/CartContext';
 import ItemList from '../ItemList/ItemList';
 import mockProducts from '../data/mockProducts'; // Importar el archivo con los productos simulados
-import './ItemListContainer.css';
+import './itemListContainer.css';
 
 const ItemListContainer = () => {
   const { categoryId } = useParams();
