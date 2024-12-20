@@ -2,7 +2,7 @@ import { initializeApp } from "firebase/app";
 import { getFirestore, collection, getDocs, addDoc } from "firebase/firestore";
 import { getAnalytics } from "firebase/analytics";
 
-// Tu configuración de Firebase (la que te dio la consola de Firebase)
+// Tu configuración de Firebase (la que te dio la consola de Firebase.)
 const firebaseConfig = {
   apiKey: "AIzaSyASn5U5kMCBWdNeS5pZFtEkYQX_0ABaql8",
   authDomain: "indumentariar18.firebaseapp.com",
